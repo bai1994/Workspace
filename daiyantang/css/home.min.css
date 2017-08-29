@@ -1,0 +1,1 @@
+body:before{white-space:pre;font-family:monospace;content:"Error: Invalid CSS after \":\": expected pseudoclass or pseudoelement, was \" .border-style\"\A         on line 9 of D:\Workspace\daiyantang\css\home.scss\A \A 4: }\A 5: \A 6: .part {\A 7:     .interaction {\A 8:         ul {\A 9:             @extend: .border-style;\A 10:         }\A 11:     }\A 12: }"}

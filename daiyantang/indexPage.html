@@ -32,7 +32,7 @@
                             <li><a href="#">明星产品</a></li>
                             <li><a href="#">团队介绍</a></li>
                             <li><a href="#">关于我们</a></li>
-                            <li><a href="#">联系我们</a></li>
+                            <li><a href="#">申请加盟</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -79,70 +79,73 @@
             </header>
             <!-- 定义页面的主要内容区域 -->
             <section class="row">
-                <div class="part all-product col-md-12">
+                <!-- 全部产品 -->
+                <div class="part remai-product col-md-12">
                   <h3>全部产品</h3>
-                  <div class="product-details">
-                    <aside class="product-title col-md-2">
-                      <ul>
-                        <li class="pro-active">
-                          <a href="#img1">一致国皂</a>
-                          <span></span>
-                        </li>
-                        <li>
-                          <a href="#img2">美颜膏</a>
-                          <span></span>
-                        </li>
-                        <li>
-                          <a href="#img3">精华霜</a>
-                          <span></span>
-                        </li>
-                        <li>
-                          <a href="#img4">颜如玉</a>
-                          <span></span>                        
-                        </li>
-                        <li>
-                          <a href="#img5">燕窝糕</a>
-                          <span></span>
-                        </li>
-                      </ul>
-                    </aside>
-                    <article class="col-md-10">
-                      <ul>
-                        <li id="img1"><img src="images/product6-1.jpg" width="100%" alt="正在加载"></li>
-                        <li id="img2"><img src="images/product_banner.jpg" width="100%" alt="正在加载"></li>
-                        <li id="img3"><img src="images/product6-1.jpg" width="100%" alt="正在加载"></li>
-                        <li id="img4"><img src="images/product6-1.jpg" width="100%" alt="正在加载"></li>
-                        <li id="img5"><img src="images/product_banner.jpg" width="100%" alt="正在加载"></li>
-                      </ul>
-                    </article>
+                  <div class="product-sail">
+                    <div class="product col-md-3">
+                      <div class="pro-first">
+                        <div class="model-bg">
+                          <p>素颜-依旧可以创造奇迹</p>
+                          <h4>素颜时代，焕颜奇迹</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product pro-right col-md-9">
+                      <div class="pro-first">
+                        <div class="model-bg">
+                          <p>精品国皂</p>
+                        </div>
+                      </div>
+                      <div class="pro-first">
+                        <div class="model-bg">
+                          <p>SPA美颜膏</p>
+                        </div>
+                      </div>
+                      <div class="pro-first">
+                        <div class="model-bg">
+                          <p>美颜精华霜</p>
+                        </div>
+                      </div>
+                      <div class="pro-first">
+                        <div class="model-bg">
+                          <p>司浓燕窝糕</p>
+                        </div>
+                      </div>
+                      <div class="pro-first">
+                         <div class="model-bg">
+                           <p>美肤面膜</p>
+                         </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <!-- 热卖产品 -->
-                <div class="part remai-product col-md-12">
-                  <h3>热卖产品</h3>
-                  <div class="product-sail">
-                     <div class="product-left col-md-3">
-                       <div class="product-fense">
-                         <img src="images/粉瑟.jpg" alt="加载图片">
-                       </div>
-                     </div>
-                     <div class="product-right col-md-9">
-                       <div class="right-pro pro-first col-md-4">
-                         <img src="images/国皂-1.jpg" alt="加载图片">
-                       </div>
-                       <div class="right-pro pro-first col-md-4">
-                         <img src="images/孔雀石SPA膏.jpg" alt="加载图片">
-                       </div>
-                       <div class="right-pro pro-first col-md-4">
-                         <img src="images/祛斑精华霜.jpg" alt="加载图片">
-                       </div>
-                       <div class="right-pro pro-first col-md-8">
-                         <img src="images/燕窝糕.jpg" alt="加载图片">
-                       </div>
-                       <div class="right-pro pro-first col-md-4">
-                         <img src="images/面膜-方形版-1.jpg" alt="加载图片">
-                       </div>
-                     </div>
+                <!-- 品牌互动 -->
+                <div class="part brand-interaction col-md-12">
+                  <h3>品牌互动</h3>
+                  <div class="interaction">
+                    <ul>
+                      <li>
+                        <img src="images/active.jpg" height="280" width="540" alt="活动专场">
+                        <h4>现场抽奖活动</h4>
+                        <p>年终活动环节-抽奖活动,奖励员工</p>
+                      </li>
+                      <li>
+                        <img src="images/active1.jpg" height="280" width="540" alt="活动专场">
+                        <h4>合作签约</h4>
+                        <p>热烈欢迎七月国际创始人加盟黛颜堂</p>
+                      </li>
+                      <li>
+                        <img src="images/active3.jpg" height="280" width="540" alt="活动专场">
+                        <h4>销售活动</h4>
+                        <p>产品现场销售场景展示</p>
+                      </li>
+                      <li>
+                        <img src="images/active4.jpg" height="280" width="540" alt="活动专场">
+                        <h4>明星活动</h4>
+                        <p></p>
+                      </li>
+                    </ul>
                   </div>
                 </div>
                 <!-- 在线视频 -->
@@ -195,10 +198,68 @@
     </body>
 
     <script>
-        $(function() {
-            $('.carousel').carousel({
-              interval: 4000
-            })
+      // 全部产品背景图加载
+      var bgpicArr = [
+        {
+          "background": "url(images/粉瑟.jpg) no-repeat",
+          "background-size": "cover",
+          "width": "100%",
+          "height": "596px"
+        },
+        {
+          "background": "url(images/国皂-1.jpg) no-repeat",
+          "background-size": "cover",
+          "height": "288px"
+        },
+        {
+          "background": "url(images/孔雀石SPA膏.jpg) no-repeat",
+          "background-size": "cover",
+          "height": "288px"
+        },
+        {
+          "background": "url(images/祛斑精华霜.jpg) no-repeat",
+          "background-size": "cover",
+          "height": "288px"
+        },
+        {
+          "background": "url(images/燕窝糕.jpg) no-repeat",
+          "background-size": "cover",
+          "width": "64.2%",
+          "height": "288px"
+        },
+        {
+          "background": "url(images/面膜-方形版-1.jpg) no-repeat",
+          "background-size": "cover",
+          "height": "288px"
+        }
+      ];
+      var proArrs = $(".pro-first");
+      console.log(proArrs.length)
+      proArrs.each(function(index, elem) {
+        proArrs.eq(index).css(bgpicArr[index]);
+      })
+      $(function() {
+          $('.carousel').carousel({
+            interval: 4000
+          })
+      })
+      /* 鼠标方向控制model样式进入的方向 */
+      $(function() {
+        $(".product-sail").on("mouseenter", ".pro-first", function(n) {
+          var _this = $(this),
+              $modelBg = _this. find(".model-bg"),
+              $width = _this.width(),
+              $height = _this.height();
+              $modelBg.removeClass("leave-left leave-right leave-top leave-bottom");
+              $modelBg.addClass(n.offsetY / n.offsetX <= $height / $width ? $width - n.offsetX >= n.offsetY - 0 ? "enter-top" : "enter-right" : $height - n.offsetY >= n.offsetX - 0 ? "enter-left" : "enter-bottom")
+        }).on("mouseleave", ".model-bg", function(n) {
+          var _this = $(this),
+              $width = _this.width(),
+              $height = _this.height();
+
+              _this.removeClass("enter-bottom enter-left enter-right enter-top");
+              n.offsetX < 0 ? _this.addClass("leave-left") : n.offsetX > $width ? _this.addClass("leave-right") : n.offsetY < 0 ? _this.addClass("leave-top") : n.offsetY > $height && _this.addClass("leave-bottom")
         })
+      })
     </script>
 </html>

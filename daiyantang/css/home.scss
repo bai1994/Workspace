@@ -1,0 +1,12 @@
+.border-style {
+    padding: 15px 0;
+    border: 1px solid #fff; 
+}
+
+.part {
+    .interaction {
+        ul {
+            @extend: .border-style;
+        }
+    }
+}
